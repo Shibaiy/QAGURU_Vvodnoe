@@ -11,3 +11,4 @@ def test_yahoo_search():
     browser.element('[type=text]').should(be.blank).type('Балтика 9').press_enter()
     browser.element('[id=main]').should(have.text('Балтика 9: состав'))
     browser.quit()
+
